@@ -48,7 +48,7 @@ app.use(passport.session());
 passport.use("provider",new AzureOAuth2Strategy({
 	clientID: process.env.clientID,
 	clientSecret:process.env.clientSecret,
-	callbackURL: 'http://localhost:3000/appid/callback',
+	callbackURL: process.env.callbackURL,
 	prompt: 'login',
     state: false
 },

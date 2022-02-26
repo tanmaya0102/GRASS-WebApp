@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d97defd1-c067-4a00-a880-74729db48d92/resourceGroups/GRASS_Group/providers/Microsoft.Web/sites/mygrass",
+    "appService.deploySubpath": "."
+}
